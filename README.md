@@ -34,4 +34,4 @@ These insight empower stakeholders with key business metrics, enabling strategic
 
 ## About Me
 
-Hi there! I'm **Habibisalim**, a fresh graduated statistics students.
+Hi there! I'm **Habibisalim**, a fresh graduated statistics students. This is where I learn more about data and share it with you.
