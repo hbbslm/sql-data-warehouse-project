@@ -15,8 +15,8 @@ dimension **tables** and **fact tables** for specific business metrics
 | **Column Name** | **Data Type** | **Description**|
 | :--- | :--- | :--- |
 | customer_key | INT | Surrogate key uniquely identifying each customer record in the dimension table |
-| customer_id | INT | Unique numerical identifier assigned to each customer |
-| customer_number | NVARCHAR(50) | Alphanumerical identifier representing the customer, used for tracking and referencing |
+| customer_id | INT | Unique numerical identifier assigned to each customer. |
+| customer_number | NVARCHAR(50) | Alphanumerical identifier representing the customer, used for tracking and referencing. |
 | first_name | NVARCHAR(50) | The customer's first name, as recorded in the system. |
 | last_name | NVARCHAR(50) | The customer's last name or family name. |
 | country | NVARCHAR(50) | The country of residence for the customer (e.g., 'Australia'). |
@@ -30,6 +30,7 @@ dimension **tables** and **fact tables** for specific business metrics
 ### **2. gold.dim_products**
 * **Purpose**: Provides information about the products and their atributes.
 * **Columns**:
+
 | **Column Name** | **Data Type** | **Description**|
 | :--- | :--- | :--- |
 | product_key | INT | Surrogate key uniquely identifying each product record in the product dimension table. |
@@ -48,7 +49,8 @@ dimension **tables** and **fact tables** for specific business metrics
 
 ### **3. gold.fact_saless**
 * **Purpose**: Stores transactional sales data for analytical purposes.
-* **Columns**:
+* **Columns**
+
 | **Column Name** | **Data Type** | **Description**|
 | :--- | :--- | :--- |
 | order_number | NVARCHAR(50) | A unique alphanumeric identifier for each sales order (e.g., 'SO54496'). |
